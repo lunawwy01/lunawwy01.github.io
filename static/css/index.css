@@ -27,7 +27,7 @@ h1 {
     padding-top: 70px;
     color: black;
     font-size: 72px;
-    line-height: 88px;
+    line-height: 70px;
     font-weight: 400;
     animation-name: fade;
     animation-duration: 3s;
@@ -131,6 +131,12 @@ a {
     transform: translatex(-100px);
     transition-duration: 1s;
 }
+ svg {
+     position: relative;
+     top: 650px;
+     left: 600px;
+     padding: 10px;
+ }
 
 
 
