@@ -31,7 +31,7 @@ h1 {
     padding-top: 70px;
     color: black;
     font-size: 72px;
-    line-height: 70px;
+    line-height:10px;
     font-weight: 400;
     animation-name: fade;
     animation-duration: 3s;
@@ -40,7 +40,7 @@ h1 {
 }
 
 .introduction {
-    max-width: 65%;
+    max-width: 60%;
     margin-bottom: 10px;
     opacity: 1;
     font-family: "PT Mono",sans-serif;
@@ -112,7 +112,7 @@ a {
 
     position: absolute;
     /*left: 800px;*/
-    left: 65%;
+    left: 63%;
     z-index: -1;
 
     transition-duration: 1s;
@@ -125,7 +125,7 @@ a {
 
     border-radius: 10px;
     padding-top: 50px;
-    /*float:right;*/
+    float:right;
 
     animation-name: fade;
     animation-fill-mode: forwards;
@@ -134,7 +134,7 @@ a {
 
     position: absolute;
     /*left: 940px;*/
-    left: 68%;
+    left: 65%;
     z-index: -2;
 }
 
@@ -146,7 +146,7 @@ a {
 footer {
     position: fixed;
     right: 7%;
-    bottom: 0;
+    bottom: 2%;
     width:100%;
     text-align: right;
 }
