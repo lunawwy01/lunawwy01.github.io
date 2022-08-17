@@ -92,14 +92,46 @@ a {
 
 }
 
-.index_bullet_journal {
+.index_bullet_journal_1 {
     height: 450px;
     width: 450px;
     border-radius: 10px;
-    padding-top: 50px;
+    padding-top: 70px;
     float:right;
     animation-name: fade;
     animation-fill-mode: forwards;
     animation-duration: 3s;
     animation-delay: 1ms;
+
+    /*position: absolute;*/
+    left: 800px;
+    z-index: 1;
+
+    transition-duration: 1s;
 }
+
+.index_bullet_journal_2 {
+    height: 450px;
+    width: 450px;
+    border-radius: 10px;
+    padding-top: 50px;
+    /*float:right;*/
+
+    animation-name: fade;
+    animation-fill-mode: forwards;
+    animation-duration: 3s;
+    animation-delay: 1ms;
+
+    position: absolute;
+    left: 940px;
+    z-index: -1;
+}
+
+.index_bullet_journal_1:hover {
+    transform: translatex(-100px);
+    transition-duration: 1s;
+}
+
+
+
+
