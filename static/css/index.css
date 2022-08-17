@@ -17,9 +17,13 @@
 
 body {
     background-color: #F0FFFF;
-    padding-left: 100px;
-    padding-right: 100px;
-    padding-top: 50px;
+    /*padding-left: 100px;*/
+    /*padding-right: 100px;*/
+    /*padding-top: 50px;*/
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-top: 2%;
+
 }
 
 h1 {
@@ -93,26 +97,32 @@ a {
 }
 
 .index_bullet_journal_1 {
-    height: 450px;
-    width: 450px;
+    /*height: 450px;*/
+    /*width: 450px;*/
+    height: 55%;
+
     border-radius: 10px;
     padding-top: 70px;
+
     float:right;
     animation-name: fade;
     animation-fill-mode: forwards;
     animation-duration: 3s;
     animation-delay: 1ms;
 
-    /*position: absolute;*/
-    left: 800px;
+    position: absolute;
+    /*left: 800px;*/
+    left: 65%;
     z-index: 1;
 
     transition-duration: 1s;
 }
 
 .index_bullet_journal_2 {
-    height: 450px;
-    width: 450px;
+    /*height: 450px;*/
+    /*width: 450px;*/
+    height: 55%;
+
     border-radius: 10px;
     padding-top: 50px;
     /*float:right;*/
@@ -123,7 +133,8 @@ a {
     animation-delay: 1ms;
 
     position: absolute;
-    left: 940px;
+    /*left: 940px;*/
+    left: 68%;
     z-index: -1;
 }
 
@@ -131,12 +142,14 @@ a {
     transform: translatex(-100px);
     transition-duration: 1s;
 }
- svg {
-     position: relative;
-     top: 650px;
-     left: 600px;
-     padding: 10px;
- }
+
+footer {
+    position: fixed;
+    right: 7%;
+    bottom: 0;
+    width:100%;
+    text-align: right;
+}
 
 
 
