@@ -40,7 +40,7 @@ h1 {
 }
 
 .introduction {
-    max-width: 740px;
+    max-width: 65%;
     margin-bottom: 10px;
     opacity: 1;
     font-family: "PT Mono",sans-serif;
@@ -113,7 +113,7 @@ a {
     position: absolute;
     /*left: 800px;*/
     left: 65%;
-    z-index: 1;
+    z-index: -1;
 
     transition-duration: 1s;
 }
@@ -135,7 +135,7 @@ a {
     position: absolute;
     /*left: 940px;*/
     left: 68%;
-    z-index: -1;
+    z-index: -2;
 }
 
 .index_bullet_journal_1:hover {
