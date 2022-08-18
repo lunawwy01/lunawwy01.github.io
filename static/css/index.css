@@ -176,6 +176,15 @@ footer {
     text-align: right;
 }
 
+.pictureLink {
+    font-family: "PT Mono",sans-serif;
+    font-size: 12px;
+    position: absolute;
+    left:63%;
+    bottom:24%
+
+}
+
 
 
 
