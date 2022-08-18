@@ -70,20 +70,6 @@ a {
     transform: scaleX(80%);
 }
 
-img {
-    height: 300px;
+.time {
+    text-align: center;
 }
-
-footer {
-    position: relative;
-    /*right: 5%;*/
-    bottom: 2%;
-    width:100%;
-    text-align: right;
-}
-
-
-
-
-
-
