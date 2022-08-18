@@ -17,9 +17,7 @@
 
 body {
     background-color: #F0FFFF;
-    margin-left: 7%;
-    margin-right: 7%;
-    margin-top: 2%;
+    margin: 2% 7% 7%;
     font-family: "PT Mono",sans-serif;
 
     animation-name: fade;
@@ -48,7 +46,7 @@ header {
 }
 
 a {
-    color: #222;
+    /*color: #222;*/
     /*text-decoration: none;*/
     transition: opacity 200ms ease;
     display: inline-block;
