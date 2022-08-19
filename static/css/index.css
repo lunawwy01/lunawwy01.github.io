@@ -47,10 +47,6 @@ body {
     margin-top: 2%;
 }
 
-.cloud {}
-
-
-
 h1 {
     font-family: 'Superior title', 'Times New Roman', sans-serif;
     padding-top: 70px;
@@ -178,7 +174,7 @@ footer {
 
 .pictureLink {
     font-family: "PT Mono",sans-serif;
-    font-size: 12px;
+    font-size: 1px;
     position: absolute;
     left:63%;
     bottom:24%
