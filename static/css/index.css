@@ -61,7 +61,9 @@ h1 {
 }
 
 .introduction {
-    max-width: 60%;
+    position: fixed;
+    top: 250px;
+    max-width: 50%;
     margin-bottom: 10px;
     opacity: 1;
     font-family: "PT Mono",sans-serif;
