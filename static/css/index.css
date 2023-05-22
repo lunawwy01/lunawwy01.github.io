@@ -52,12 +52,12 @@ h1 {
     padding-top: 70px;
     color: black;
     font-size: 72px;
-    line-height:10px;
     font-weight: 400;
     animation-name: fade;
     animation-duration: 3s;
     animation-fill-mode: forwards;
-    float:left
+    float:left;
+    line-height: 100px;
 }
 
 .introduction {
